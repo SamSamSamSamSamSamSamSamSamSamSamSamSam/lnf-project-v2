@@ -1,0 +1,265 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*===================================================================*/
+/* Footer.css */
+.footer {
+  background-color: black;
+  padding: 20px 0;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.large-font {
+  font-size: 1.5em;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-section {
+  flex: 2;
+  padding-right: 130px;
+}
+
+.footer-div {
+  text-align: left;
+  margin-right: 20px;
+}
+
+.footer-section.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.subscribe-text {
+  margin-bottom: 10px;
+}
+
+.bottom-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+/*===================================================================*/
+/* Navbar CSS */
+.ml-sect {
+  margin-left: 200px;
+}
+/*===================================================================*/
+/* Home css */
+.home-header-text {
+  font-size: 150px;
+  color: black;
+}
+.home-btm-text {
+  padding-top: 180px;
+  color: black;
+}
+
+.report-sect {
+  background-color: rgb(9, 42, 203)
+}
+/*===================================================================*/
+/* Login Css */
+
+.login-background {
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Set your desired background color */
+}
+
+.login-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.login-box-inner {
+  background-color: #fff;
+  padding: 40px; /* Increase the padding for more space */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px; /* Set the width to your preference */
+  min-width: 300px; /* Optionally, set a max-width for responsiveness */
+}
+
+.login-box-inner h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text-muted a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.text-muted a:hover {
+  text-decoration: underline;
+}
+
+.login-btn-m {
+  margin-top: 15px;
+  margin-left: 350px;
+  flex: right;
+}
+
+.login-box-m {
+  margin-top: 100px;
+}
+/*===================================================================*/
+/* Report Css */
+
+.report-outer-container {
+  height: 230vh; /* 100% of the viewport height */
+}
+
+.report-outer-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.report-outer-col {
+  max-width: 1000px !important;
+  width: 100% !important;
+}
+
+.report-outer-col .report-inner-box {
+  padding: 20px;
+  border: 1px solid #ccc; /* Optional: Add a border for visualization */
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.report-inner-box {
+  padding: 20px;
+  border: 1px solid #ccc; /* Optional: Add a border for visualization */
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.report-btn-m {
+  margin-left: 800px;
+  margin-top: 30px;
+}
+
+.report-sect-spacing {
+  margin-top: 100px;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.collapsible-header h3 {
+  margin: 0;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.inner-box-m {
+  margin-top: 50px;
+}
+/*===================================================================*/
+/* AboutUscss */
+
+.about-us {
+  flex: 1;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+/*===================================================================*/
+/* ContactUs Css*/
+
+.contact-m {
+  padding-top: 100px;
+  flex: 1;
+  min-height: 100vh;
+}
+
+/*===================================================================*/
+/* Support Css */
+.support-m {
+  padding-top: 100px;
+  flex: 1;
+  min-height: 100vh;
+}
+/*===================================================================*/
+/* Seacrh Css */
+.search-m {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.search-m-container {
+  flex: 1;
+  height: auto;
+  min-height: 100vh;
+}
+
+.search-m-form {
+  padding-top: 50px;
+}
+
+/*===================================================================*/
+/* Profile Css */
+/* styles/Profile.css */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 100vh;
+}
+
+.profile-inner-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+  padding-bottom: 200px;
+}
+
+.update-profile-btn {
+  margin-top: 20px;
+  width: 40px; /* Set a smaller width */
+  height: 40px; /* Set a smaller height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+/*===================================================================*/
+
+/*===================================================================*/
+/*===================================================================*/
+
+/*===================================================================*/

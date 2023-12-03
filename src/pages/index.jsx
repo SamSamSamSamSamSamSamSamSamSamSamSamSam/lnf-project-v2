@@ -1,0 +1,9 @@
+export { default as Home } from './Home';
+export { default as Login } from './Login';
+export { default as SignUp } from './SignUp';
+export { default as Report } from './Report';
+export { default as AboutUs } from './AboutUs';
+export { default as ContactUs } from './ContactUs';
+export { default as Support } from './Support';
+export { default as Search } from './Search';
+export { default as Profile } from './Profile';
