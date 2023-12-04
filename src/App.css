@@ -119,14 +119,16 @@ a:link {
 /* Report Css */
 
 .report-outer-container {
-  height: 230vh; /* 100% of the viewport height */
+  height: auto;
+  min-height: 100vh; /* 100% of the viewport height */
 }
 
 .report-outer-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: auto;
+  margin-bottom: 100px;
 }
 
 .report-outer-col {
