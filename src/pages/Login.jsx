@@ -2,10 +2,19 @@
 
 import { useState } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+
+  const navigate = useNavigate()
+
+  const toggleSignUp = () => {
+
+    navigate("/signup")
+
+  }
 
   const handleLogin = () => {
     // Add logic to handle login, you can use props or a state management library to pass the data to other pages.
@@ -46,6 +55,18 @@ const Login = () => {
                 <Button className='login-btn-m' variant="primary" onClick={handleLogin}>
                   Login
                 </Button>
+              <br />
+              <br />
+              <div className="signup-text">
+                  <p className="mb-0">Don't have an account? </p>
+                  <p className="fw-bold mb-0"
+                   style={{ cursor: 'pointer' }} 
+                   onClick={toggleSignUp}>
+                    <span className="text-decoration-underline">
+                      SIGN UP!
+                      </span>
+                      </p>
+                </div>
               </Form>
             </div>
           </Col>
