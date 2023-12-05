@@ -2,11 +2,11 @@
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Footer, Navbar } from './components/index'
-import { Home, Login, SignUp, Report, AboutUs, ContactUs, Support, Search, Profile } from './pages/index'
+import { Home, Login, SignUp, Report, AboutUs, ContactUs, Support, Search, Profile, Claim, ItemView, AdminDash } from './pages/index'
 
 function App() {
 
-  const isLoggedIn = true; //dummy value only. change to user authentication logic
+  const isLoggedIn = false; //dummy value only. change to user authentication logic
 
   return (
     <>
@@ -23,6 +23,9 @@ function App() {
           <Route path="/support" element={<Support/>}/>
           <Route path="/search" element={<Search/>}/>
           <Route path="/profile" element={<Profile/>}/>
+          <Route path="/claim" element={<Claim/>}/>
+          <Route path="/itemview" element={<ItemView/>}/>
+          <Route path="/admin" element={<AdminDash/>}/>
         </Routes>
       <Footer/>
     </Router>

@@ -274,8 +274,45 @@ a:link {
 }
 
 /*===================================================================*/
+/* Signup Css */
+
+.signup-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.signup-text p {
+  margin-right: 5px; /* Adjust as needed */
+}
 
 /*===================================================================*/
+/* Claim Css */
+
+.claim-h {
+  height: auto;
+  min-height: 100vh;
+}
+
+.claim-m {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/*===================================================================*/
+/* ItemView Css */
+
+.itemview-h {
+  height: auto;
+  min-height: 100vh;
+}
+
+.itemview-m {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
 /*===================================================================*/
 
 /*===================================================================*/

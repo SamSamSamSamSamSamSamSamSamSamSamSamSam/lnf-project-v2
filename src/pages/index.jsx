@@ -7,3 +7,6 @@ export { default as ContactUs } from './ContactUs';
 export { default as Support } from './Support';
 export { default as Search } from './Search';
 export { default as Profile } from './Profile';
+export { default as Claim } from './Claim';
+export { default as ItemView } from './ItemView';
+export { default as AdminDash } from './AdminDashboard';
